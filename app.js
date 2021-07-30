@@ -17,7 +17,7 @@ if(process.env.NODE_ENV === 'development') {
 }
 
 // Handlebars
-app.engine('.hbs', expressHandlebars({extname: '.hbs'}));
+app.engine('.hbs', expressHandlebars({ defaultLayout: 'main', extname: '.hbs' }));
 app.set('view engine', '.hbs');
 
 // Listen
