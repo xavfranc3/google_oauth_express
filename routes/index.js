@@ -3,7 +3,7 @@ const router = express.Router();
 
 /**
  * @desc /Landing page
- * @route GET/
+ * @route GET /
  */
 router.get('/', (req, res) => {
     res.render('login', {
