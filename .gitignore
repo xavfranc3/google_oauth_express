@@ -1,2 +1,7 @@
 .env
 .idea
+.DS_Store
+Thumbs.db
+/dist
+/tmp
+/out-tsc
